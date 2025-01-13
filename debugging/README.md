@@ -81,3 +81,11 @@ Enter y coordinate:
 #### Objectives
 - Use ChatGPT to document the code
 - Add the comments to this code. You should have 3 sections: function description, parameters and returns.
+
+
+### 5. Error Handling - Python Checkbook
+
+#### Objectives
+- Use ChatGPT to document the code
+- Fix the code, to prevent the program from crashing due to invalid input (e.g., non-numeric values), add error handling mechanisms.
+

@@ -3,25 +3,25 @@ import sys
 
 def factorial(n):
     """
-    Calculate the factorial of a given number recursively.
+    Calculer le factoriel d'un nombre donné de manière récursive.
 
-    Function description:
-    This function computes the factorial of a non-negative integer using recursion. 
-    The factorial of 0 is defined as 1, and for any positive integer n, 
-    it is the product of all positive integers less than or equal to n.
+    Description de la fonction :
+    Cette fonction calcule le factoriel d'un entier non négatif en utilisant la récursion. 
+    Le factoriel de 0 est défini comme étant égal à 1. Pour tout entier positif n, 
+    le factoriel est le produit de tous les entiers positifs inférieurs ou égaux à n.
 
-    Parameters:
-    n (int): A non-negative integer whose factorial is to be computed.
+    Paramètres :
+    n (int) : Un entier non négatif dont le factoriel doit être calculé.
 
-    Returns:
-    int: The factorial of the given number n.
+    Retourne :
+    int : Le factoriel du nombre donné n.
     """
     if n == 0:
-        return 1  # Base case: factorial of 0 is 1
+        return 1  # Cas de base : le factoriel de 0 est 1
     else:
-        return n * factorial(n - 1)  # Recursive call
+        return n * factorial(n - 1)  # Appel récursif
 
-# Main program
-# Read the first command-line argument, convert it to an integer, and calculate its factorial
+# Programme principal
+# Lire le premier argument de la ligne de commande, le convertir en entier, et calculer son factoriel
 f = factorial(int(sys.argv[1]))
-print(f)  # Print the result
+print(f)  # Afficher le résultat
