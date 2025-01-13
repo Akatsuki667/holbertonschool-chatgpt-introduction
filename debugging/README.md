@@ -103,7 +103,7 @@ Enter y coordinate:
 - Players alternate placing “X” or “O” on a 3x3 board, aiming to get three in a row horizontally, vertically, or diagonally to win.
 
 #### Expected result
-➜  debugging git:(main) ./tic.py 
+- debugging git:(main) ./tic.py 
   |   |  
 -----
   |   |  
