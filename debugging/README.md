@@ -41,4 +41,7 @@ for i in range(len(sys.argv)):
     print(sys.argv[i])
 
 #### Expected result
-
+➜  debugging git:(main) ✗ ./print_arguments.py 5
+Liste des arguments passés au script :
+Argument 0 : ./print_arguments.py
+Argument 1 : 5
