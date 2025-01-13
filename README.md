@@ -15,4 +15,4 @@ This project focuses on two pivotal aspects of software development: debugging a
 
 ## TASKS
 
-### 0. Debugging
+### 0. Debugging - Python Factorial
