@@ -8,6 +8,7 @@
 - Use ChatGPT to identify and correct errors in code samples.
 - Fix the code, it should print the factorial of the argument.
 - Code to fix :
+
 #!/usr/bin/python3
 import sys
 
