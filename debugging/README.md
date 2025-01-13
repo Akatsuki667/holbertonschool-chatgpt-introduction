@@ -82,6 +82,10 @@ Enter y coordinate:
 - Use ChatGPT to document the code
 - Add the comments to this code. You should have 3 sections: function description, parameters and returns.
 
+#### Game Overview
+- Minesweeper is a puzzle game where the player must clear a field of hidden “mines” without detonating any of them, using clues about the number of neighboring mines in each field.
+
+
 
 ### 5. Error Handling - Python Checkbook
 
@@ -89,3 +93,11 @@ Enter y coordinate:
 - Use ChatGPT to document the code
 - Fix the code, to prevent the program from crashing due to invalid input (e.g., non-numeric values), add error handling mechanisms.
 
+
+### 6. Debugging - Tic Tac Toe Python
+
+#### Objectives
+- Use ChatGPT to identify and correct errors in code samples. (There may be several errors on the code)
+
+#### Game Overview
+- Players alternate placing “X” or “O” on a 3x3 board, aiming to get three in a row horizontally, vertically, or diagonally to win.
