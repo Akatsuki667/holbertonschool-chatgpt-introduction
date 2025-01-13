@@ -1,19 +1,25 @@
 # ChatGPT - Introduction
 
-## Description
-This project focuses on two pivotal aspects of software development: debugging and automation. 
-
-### Objectives
-- Debugging: Understand the practical use of AI in identifying and solving coding errors. You will use ChatGPT to diagnose and correct bugs in provided code samples across multiple programming languages. This will enhance your problem-solving skills and understanding of common programming pitfalls in a diverse set of coding environments.
-
-- Automation: Learn how to automate mundane and repetitive coding tasks with the assistance of ChatGPT. This involves generating boilerplate code, documentation, and even basic unit tests, freeing up time to focus on more complex and creative aspects of software development.
-
-### Outcomes
-- Enhanced Debugging Skills: Gain confidence in troubleshooting and refining code, with an ability to articulate problems clearly and implement AI-driven solutions effectively.
-
-- Automation Proficiency: Develop skills to leverage AI for automating coding tasks, leading to more structured and error-free code.
-
 ## TASKS
 
 ### 0. Debugging - Python Factorial
-- Objective: Use ChatGPT to identify and correct errors in code samples.
+
+#### Objectives
+- Use ChatGPT to identify and correct errors in code samples.
+- Fix the code, it should print the factorial of the argument.
+- Code to fix :
+#!/usr/bin/python3
+import sys
+
+def factorial(n):
+    result = 1
+    while n > 1:
+        result *= n
+    return result
+
+f = factorial(int(sys.argv[1]))
+print(f)
+
+#### Expected result
+➜  debugging git:(main) ✗ ./factorial.py 5
+Le factoriel de 5 est 120.
