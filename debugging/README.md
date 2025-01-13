@@ -58,6 +58,9 @@ Argument 1 : 5
 #### Objectives
 - Fix the code, implement a mechanism to detect when all non-mine cells have been revealed, thus winning the game.
 
+#### Game Overview
+- Minesweeper is a puzzle game where the player must clear a field of hidden “mines” without detonating any of them, using clues about the number of neighboring mines in each field.
+
 #### Expected result
 ➜  debugging git:(main) ✗ ./mines.py 
 
@@ -82,9 +85,6 @@ Enter y coordinate:
 - Use ChatGPT to document the code
 - Add the comments to this code. You should have 3 sections: function description, parameters and returns.
 
-#### Game Overview
-- Minesweeper is a puzzle game where the player must clear a field of hidden “mines” without detonating any of them, using clues about the number of neighboring mines in each field.
-
 
 
 ### 5. Error Handling - Python Checkbook
@@ -101,3 +101,12 @@ Enter y coordinate:
 
 #### Game Overview
 - Players alternate placing “X” or “O” on a 3x3 board, aiming to get three in a row horizontally, vertically, or diagonally to win.
+
+#### Expected result
+➜  debugging git:(main) ./tic.py 
+  |   |  
+-----
+  |   |  
+-----
+  |   |  
+-----
