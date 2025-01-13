@@ -45,3 +45,31 @@ for i in range(len(sys.argv)):
 Liste des arguments passés au script :
 Argument 0 : ./print_arguments.py
 Argument 1 : 5
+
+
+### 2. Debugging - HTML / Javascript
+
+#### Objectives
+- Fix the code, it should change the background color when you click on the button.
+
+### 3. Debugging - Python Mines
+
+#### Objectives
+- Fix the code, implement a mechanism to detect when all non-mine cells have been revealed, thus winning the game.
+
+#### Expected result
+➜  debugging git:(main) ✗ ./mines.py 
+
+  0 1 2 3 4 5 6 7 8 9
+0 . . . . . . . . . . 
+1 . . . . . . . . . . 
+2 . . . . . . . . . . 
+3 . . . . . . . . . . 
+4 . . . . . . . . . . 
+5 . . . . . . . . . . 
+6 . . . . . . . . . . 
+7 . . . . . . . . . . 
+8 . . . . . . . . . . 
+9 . . . . . . . . . . 
+Enter x coordinate:
+Enter y coordinate:

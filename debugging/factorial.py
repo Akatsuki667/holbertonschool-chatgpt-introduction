@@ -1,20 +1,12 @@
-#!/usr/bin/python3 # Shebang -> Utilisation interpréteur Python 3
-import sys # Accès arguments passés au script via sys.argv
+#!/usr/bin/python3
+import sys
 
-def factorial(n): # Déclaration fonction 
-    result = 1 # Initialisation variable
+def factorial(n):
+    result = 1
     while n > 1:
         result *= n
-        n -= 1  # Réduction de n pour éviter une boucle infinie
+        n -= 1 
     return result
 
-# Gestion des erreurs pour les entrées non valides
-try: # Débute bloc d'essai gestion exceptions
-    n = int(sys.argv[1]) # Lecture premier argument ligne et conversion de ce dernier
-    if n < 0: # Condition de vérification
-        print("Erreur : le factoriel d'un nombre négatif n'est pas défini.")
-    else:
-        f = factorial(n) # Appel fonction pour calcul
-        print(f"Le factoriel de {n} est {f}.") # Affichage résultat
-except (IndexError, ValueError): # Gestion exceptions capture deux types d'erreurs
-    print("Usage : ./script.py <entier>") # Affichage message d'usage
+f = factorial(int(sys.argv[1]))
+print(f)
