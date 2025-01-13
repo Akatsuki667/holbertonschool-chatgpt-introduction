@@ -52,6 +52,7 @@ Argument 1 : 5
 #### Objectives
 - Fix the code, it should change the background color when you click on the button.
 
+
 ### 3. Debugging - Python Mines
 
 #### Objectives
@@ -73,3 +74,10 @@ Argument 1 : 5
 9 . . . . . . . . . . 
 Enter x coordinate:
 Enter y coordinate:
+
+
+### 4. Documentation - Python Factorial
+
+#### Objectives
+- Use ChatGPT to document the code
+- Add the comments to this code. You should have 3 sections: function description, parameters and returns.
