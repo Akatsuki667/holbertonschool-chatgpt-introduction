@@ -10,7 +10,7 @@ Use ChatGPT to identify and correct errors in code samples.
 #### Objectives
 - Fix the code, it should print the factorial of the argument.
 - Code to fix :
-- 
+
 ```bash
 #!/usr/bin/python3
 import sys
