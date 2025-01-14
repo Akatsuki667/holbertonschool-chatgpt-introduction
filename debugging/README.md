@@ -14,6 +14,7 @@ Use ChatGPT to identify and correct errors in code samples.
 #!/usr/bin/python3
 import sys
 
+```bash
 def factorial(n):
     result = 1
     while n > 1:
@@ -26,6 +27,7 @@ print(f)
 #### Expected result
 ➜  debugging git:(main) ✗ ./factorial.py 5
 Le factoriel de 5 est 120.
+```
 
 
 ### 1. Debugging - Python Arguments
@@ -34,6 +36,7 @@ Le factoriel de 5 est 120.
 - Fix the code, it should print only the arguments without the python file name.
 - Code to fix :
 
+```bash
 #!/usr/bin/python3
 import sys
 
@@ -45,6 +48,7 @@ for i in range(len(sys.argv)):
 Liste des arguments passés au script :
 Argument 0 : ./print_arguments.py
 Argument 1 : 5
+```
 
 
 ### 2. Debugging - HTML / Javascript
